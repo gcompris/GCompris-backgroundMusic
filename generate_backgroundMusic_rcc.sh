@@ -11,6 +11,8 @@
 # upstream location.
 #
 
+export RCC=/usr/bin/rcc
+
 [ $# -ne 1 ] && {
     echo "Usage: generate_backgroundMusic_rcc.sh ogg|aac|ac3|mp3"
     exit 1
